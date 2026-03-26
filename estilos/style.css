@@ -17,6 +17,7 @@ header > h1 {
     text-align: center;
     background-color: #2d6462;
     color: white;
+    padding: 10px;
 }
 
 header > p {
@@ -25,15 +26,25 @@ header > p {
     padding: 20px;
     border: 5px solid white;
     margin: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
     color: white;
     font-size: 2em;
     border-radius: 5px;
 }
 
+section#borda {
+    border: 3px solid #2d6462;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
 div#formulario > h1 {
     color: white;
     text-align: center;
+    margin-top: 50px;
 }
 
 div#formulario > p {
@@ -41,13 +52,14 @@ div#formulario > p {
     margin-top: 30px;
     color: white;    
     text-align: center;
-    width: 100px;
+    width: 200px;
     font-size: 1.4em;
+    font-weight: bolder;
 }
 
 form {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
     background-color: white;
     width: 400px;
@@ -56,10 +68,19 @@ form {
     border-radius: 8px;
 }
 
+div.campo {
+    
+}
+
+div.campo > span {
+    width: 40px;
+}
+
+
 div.campo > input {
     margin: auto;
-    margin-top: 50px;
-    padding: 10px;
+    margin-top: 30px;
+    padding: 15px;
     border-radius: 5px;
 }
 
@@ -69,29 +90,26 @@ div.campo > label {
 
 form > input[type=submit] {
     font-size: 1em;
-    width: 100px;
-    height: 20px;
+    width: 80%;
+    height: 40px;
     margin-top: 30px;
-    background-color: gray;
+    background-color: #49a09d;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    color: blue;
-    display: block;
-    margin-top: 22px;
-    margin-left: 250px;
-    border: 1px solid black;    
-    border-radius: 5px;
-    width: 130px;
+form > input[type=submit]:hover {
+    background-color: #2d6462;
 }
 
-span {
-   display: block;
+a {
+    color: blue;
+    display: block;
+    margin-top: 15px;
+    margin-left: 250px;  
+    width: 130px;
 }
 
 
