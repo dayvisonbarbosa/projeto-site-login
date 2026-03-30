@@ -13,6 +13,7 @@ body, html {
     height: 100vh;
 }
 
+
 header > h1 {
     text-align: center;
     background-color: #2d6462;
@@ -22,7 +23,7 @@ header > h1 {
 
 header > div#pheader {
     margin: auto;
-    text-align: center;    
+    text-align: center;
 }
 
 header p {
@@ -36,7 +37,7 @@ header p {
     
     border: 5px solid white;
     color: white;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 section#borda {
@@ -46,6 +47,8 @@ section#borda {
     margin-top: 50px;
     padding-top: 5px;
     padding-bottom: 30px;
+    transition: width .3s height .3s;
+    transition-timing-function: ease;
 }
 
 div#formulario > h1 {
@@ -73,10 +76,6 @@ form {
     height: 280px;
     border: 1px solid black;
     border-radius: 8px;
-}
-
-div.campo {
-    
 }
 
 div.campo > span {
