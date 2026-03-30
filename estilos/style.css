@@ -20,17 +20,22 @@ header > h1 {
     padding: 10px;
 }
 
-header > p {
+header > div#pheader {
+    margin: auto;
+    text-align: center;    
+}
+
+header p {
     display: inline-block;
     width: 110px;
     height: 110px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-top: 40px;
-    text-align: center;
+    
     border: 5px solid white;
-    margin-left: ;
-    
     color: white;
-    
     border-radius: 5px; 
 }
 
@@ -38,7 +43,7 @@ section#borda {
     border: 3px solid #2d6462;
     border-radius: 5px;
     margin: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
     padding-top: 5px;
     padding-bottom: 30px;
 }
